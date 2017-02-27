@@ -22,4 +22,50 @@ h1 {
   margin-bottom: 2vh;
 }
 
+.add-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+
+.form-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-form input {
+  border: none;
+  border-bottom: 1px solid rgba(60,60,60,.2);
+}
+
+.movie-title {
+  font-size: 7vh;
+}
+
+.submit-button {
+  border: none;
+  margin-top: 2vh;
+  align-item: center;
+}
+
+.big-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-container {
+  border: 1px solid rgba(60,60,60,.2);
+  width: 50vw;
+  text-transform: lowercase;
+  margin: 1vh auto;
+  padding: 2rem;
+}
+
+input {
+  outline: none;
+}
 

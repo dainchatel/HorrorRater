@@ -9,6 +9,8 @@ module Api
       @post = Post.new(post_params)
 
       @post.save
+      render json: @post.to_json
+      # redirect_to '/'
     end
 
     # def show
